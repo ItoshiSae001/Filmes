@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/tmdb/search", "destination": "/api/tmdb/search.js" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
