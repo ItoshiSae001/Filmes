@@ -1,4 +1,6 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
   "rewrites": [
     { "source": "/api/tmdb/search", "destination": "/api/tmdb/search.js" },
     { "source": "/(.*)", "destination": "/index.html" }
